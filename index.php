@@ -23,6 +23,7 @@
                     <li><a  href="login" style="color: black;text-decoration: none;">Login/Signup</a></li>
                     <li><a  href="doctor_1" style="color: black;text-decoration: none;">Blogs</a></li>
                     <li><a  href="hospitals" style="color: black;text-decoration: none;">Projects</a></li>
+                    <li><a  href="admin.php" style="color: black;text-decoration: none;">admin</a></li>
                 </ul>
             </div>
 
@@ -94,28 +95,36 @@
             <p class="servicesHeaderText">Services</p>
         </div>
         <div class="servicesHolder">
-                <div class="services service1">
-                  <div class="imgBoxService1">
-                   <img src="static/health_monitoring-fotor-bg-remover-2024032712200.png" alt="health_monitoring" srcset="" class="imgBanner">
-                  </div>
-                  <p class="serviceText serviceText1">HealthCare<br>
-                     Monitoring</p>
+            <div class="serviceBox1">
+                <div class="imageHolder3">
+                    <img src="static/webD.png" alt="" srcset="">
+                   
                 </div>
-                <div class="services service2">
-                    <div class="imgBoxService">
-                        <img src="static/mental.jpg" alt="health_monitoring" srcset="" class="imgBanner">
-                       </div>
-                       <p class="serviceText serviceText1">Mental Health Management</p>
+                <p class="textTitle" style="text-align:center">Software Consulting</p>
+            </div>
+            <div class="serviceBox1">
+            <div class="imageHolder3">
+                    <img src="static/webDevJob.png" alt="" srcset="">
                 </div>
-                <div class="services service3">
-                    <div class="imgBoxService">
-                        <img src="static/presciption.jpg" alt="health_monitoring" srcset="" class="imgBanner">
-                       </div>
-                       <p class="serviceText serviceText1">Prescription Alert
-                        System</p>
+                <p class="textTitle" style="text-align:center">Website and mobile app development</p>
+            </div>
+            <div class="serviceBox1">
+            <div class="imageHolder3">
+                    <img src="static/coder1.avif" alt="" srcset="">
                 </div>
+                <p class="textTitle" style="text-align:center">Coding Community</p>
+            </div>
+            <div class="serviceBox1">
+            <div class="imageHolder3">
+                    <img src="static/blogs.png" alt="" srcset="">
+                </div>
+                <p class="textTitle" style="text-align:center">Blogs</p>
+            
+            </div>
+          
         </div>
-    </div>
+</div>
+
     <!------->
 
 
@@ -164,6 +173,29 @@
         padding:0;
         box-sizing: border-box;
     }
+    .servicesHolder{
+        row-gap:5.5vmin;
+    }
+    .serviceBox1{
+        width:70vmin;
+      
+    }
+    .Servicecontainer{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:100vw;
+
+    }
+    .servicesHolder{
+        width:100vw;
+        
+       
+    }
+    .imageHolder3{
+        height:50vmin;
+        width:70vmin;
+    }
     .banner{
         width:100vw;
         display: flex;
@@ -176,7 +208,11 @@
     .border{
          border: 1px solid black;
     }
-    
+    .imageHolder3{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
     .bannerImage{
         width:100vmin;
         display: flex; justify-content: center;
@@ -390,7 +426,7 @@
        justify-content: center;
    }
    .services{
-       width:70vmin;
+       width:100vw;
        margin-top: 3vmin;
    }
    .imgBoxService{
@@ -472,7 +508,10 @@
    .logoHolder{
     margin-left:-9vmin;
    }
-
+   .services{
+       width:100vw;
+       margin-top: 3vmin;
+   }
 }
 /*Tab Screens*/
 @media(min-width:701px) and (max-width:900px){
@@ -865,6 +904,10 @@
    .banner{
      padding:5vmin;
    }
+   .services{
+       width:100vw;
+       margin-top: 3vmin;
+   }
 
 }
 /*---- End for mobile and tab screens ---*/
@@ -920,6 +963,10 @@
     .banner{
       padding: 7vmin;
     }
+    .services{
+       width:100vw;
+       margin-top: 3vmin;
+   }
     @media (min-height: 771px) {
       /*For macbook(13.5 inch screen)*/
       .banner{
@@ -1149,6 +1196,10 @@
      width:70vmin;
   
    }
+   .services{
+       width:100vw;
+       margin-top: 3vmin;
+   }
       
     }
     @media(min-height:771px) {
@@ -1259,7 +1310,7 @@
        justify-content: center;
    }
    .services{
-       width:70vmin;
+       width:100vw;
        margin-top: 3vmin;
    }
    .imgBoxService{
@@ -1373,9 +1424,13 @@
         width: 40vmin;
     
     }
+    .services{
+       width:100vw;
+       margin-top: 3vmin;
+   }
       
     }
-     
+   
     }
 
 /*For macbook(13.5inch eg:macbook-air)*/
@@ -1394,7 +1449,7 @@
     }
     .bannerTitle{
         font-weight: bold;
-        font-size: 11vmin;
+        font-size: 17vmin;
     }
     .bannerSlogan{
         font-size: 3.5vmin;
@@ -1605,7 +1660,17 @@
     
     }
 
-    
+    .banner{
+       padding:5vmin;
+    }
+    .imgBanner{
+       height:65vmin;
+       width:65vmin;
+    }
+    .services{
+       width:100vw;
+       margin-top: 3vmin;
+   }
  
     
 }
@@ -1836,9 +1901,13 @@
        padding:5vmin;
     }
     .imgBanner{
-       height:65vmin;
-       width:65vmin;
+       height:60vmin;
+       width:60vmin;
     }
+    .services{
+       width:100vw;
+       margin-top: 3vmin;
+   }
 }
 /*--- End of Large Screen code ---*/
 /*--- For Very Large laptop screens (Ex:- Large Dell Latitude Screens,Macbook Pro)---*/
@@ -2190,7 +2259,10 @@
        height:50vmin;
        width:50vmin;
     }
-      
+    .services{
+       width:100vw;
+       margin-top: 3vmin;
+   }
     }
 
 /*--- For XX Large screens (Ex:- TVs,IMacs...)---*/
@@ -2423,7 +2495,10 @@
        height:50vmin;
        width:50vmin;
     }
-    
+    .services{
+       width:100vw;
+       margin-top: 3vmin;
+   }
 }
    
     img{
