@@ -126,7 +126,21 @@
 </div>
 
     <!------->
-
+    <!---FAQ Section ---->
+    <div class="faqHeader">
+            Faqs
+        </div>
+    <div class="faqSection">
+        
+        <div class="containerFAQ faqImage">
+           <div class="imageHolderFAQ">
+             <img src="static/faq.webp" alt="" srcset="">
+           </div>
+        </div>
+        <div class="containerFAQ faqBox">
+            This is a FAQ box
+        </div>
+    </div>
 
     <!--Footer Section-->
 
@@ -178,7 +192,9 @@
     }
     .serviceBox1{
         width:70vmin;
-      
+        margin-left:3vmin;
+        box-shadow:1px 2px 3px 2px;
+        padding: 1vmin;
     }
     .Servicecontainer{
         display:flex;
@@ -194,7 +210,7 @@
     }
     .imageHolder3{
         height:50vmin;
-        width:70vmin;
+        width:69vmin;
     }
     .banner{
         width:100vw;
@@ -218,9 +234,37 @@
         display: flex; justify-content: center;
         align-items: center;
     }
+    .faqSection{
+        width:100vw;
+        height:80vmin;
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+
+        border:1px solid black;
+    }
+    .faqImage{    display:flex;
+        justify-content:center;
+        align-items:center;width:50vmin;  border:1px solid black;}
+    .faqBox{ width:100vmin;
+        
+    border:1px solid black;}
+    .faqHeader{
+        width:100vw;
+        height:10vmin;
+        margin-top:10vmin;
+        border:1px solid black;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .imageHolderFAQ{
+     
+    }
 /*New Code*/
 /*Small Device*/
 @media(max-width:700px){
+    .textTitle{font-size:5vmin;font-weight:bold;}
     *{
         overflow-x: hidden;
     }
@@ -515,7 +559,7 @@
 }
 /*Tab Screens*/
 @media(min-width:701px) and (max-width:900px){
-   
+    .textTitle{font-size:5vmin;font-weight:bold;}
   .aboutImageHolder{
     display: flex; justify-content: center; align-items: center;
        height: 90vmin;
@@ -914,7 +958,7 @@
 
 /*--- For Mini and medium Laptops(13.5eg: macbook-air) */
 @media(min-width:901px) and (max-width:1280px) {
-   
+    .textTitle{font-size:4vmin;font-weight:bold;}
     @media(max-height:770px) {
               /*For Lenovo Thinkpad(small X390)*/
     body{
@@ -1436,7 +1480,7 @@
 /*For macbook(13.5inch eg:macbook-air)*/
 /*--- For Mini and medium Laptops(14inch eg: macbook-air) */
 @media(min-width:1281px) and (max-width:1440px){
-   
+    .textTitle{font-size:4vmin;font-weight:bold;}
     .bannerImage{
         width: 80vmin;
     }
@@ -1679,6 +1723,9 @@
 
 /*--- For Large laptop screens(15.6inch)(Ex:- HP-Omen)---*/
 @media(min-width:1441px) and (max-width:1727px){
+    
+    .textTitle{font-size:3vmin;font-weight:bold;
+    font-family:"sans-serif"}
   .hamSection{
     display: none;
   }
@@ -1908,6 +1955,8 @@
        width:100vw;
        margin-top: 3vmin;
    }
+   
+   .textTitle{font-size:4vmin;font-weight:bold;}
 }
 /*--- End of Large Screen code ---*/
 /*--- For Very Large laptop screens (Ex:- Large Dell Latitude Screens,Macbook Pro)---*/
@@ -2263,10 +2312,13 @@
        width:100vw;
        margin-top: 3vmin;
    }
+   
+   .textTitle{font-size:4vmin;font-weight:bold;}
     }
 
 /*--- For XX Large screens (Ex:- TVs,IMacs...)---*/
 @media(min-width:2048px){
+    .textTitle{font-size:4vmin;font-weight:bold;}
     .bannerImage{
         width:100vmin;
         display: flex; justify-content: center;
