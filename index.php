@@ -1606,6 +1606,8 @@
     }
 
     
+ 
+    
 }
 
 /*-----End for macbook-air sized laptops(14 inch) ----*/
@@ -1632,12 +1634,12 @@
     }
     .bannerTitle{
         font-weight: bold;
-        font-size:13vmin;
+        font-size:17vmin;
         color: white;
     }
     .bannerSlogan{
         color: white;
-        font-size: 3.75vmin;
+        font-size: 4vmin;
     }
     .bannerTextDiv{
         height:25vmin;
@@ -1830,7 +1832,13 @@
        height: 45vmin;
        width: 75vmin;
    }
-
+   .banner{
+       padding:5vmin;
+    }
+    .imgBanner{
+       height:65vmin;
+       width:65vmin;
+    }
 }
 /*--- End of Large Screen code ---*/
 /*--- For Very Large laptop screens (Ex:- Large Dell Latitude Screens,Macbook Pro)---*/
