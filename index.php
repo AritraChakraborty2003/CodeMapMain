@@ -21,7 +21,7 @@
                     <li><a  href="#about" style="color: black;text-decoration: none;">About-us</a></li>
                     <li><a  href="#services" style="color: black;text-decoration: none;">Services</a></li>
                     <li><a  href="login.php" style="color: black;text-decoration: none;">Login/Signup</a></li>
-                    <li><a  href="blogs.php" style="color: black;text-decoration: none;">Blogs</a></li>
+                    <li><a  href="blog.php" style="color: black;text-decoration: none;">Blogs</a></li>
                     <li><a  href="projects.php" style="color: black;text-decoration: none;">Projects</a></li>
                     <li><a  href="admin.php" style="color: black;text-decoration: none;">admin</a></li>
                 </ul>
