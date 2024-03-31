@@ -1,3 +1,11 @@
+<?php
+    session_start();
+    if(!isset($_SESSION["name"]))
+    {
+        echo "<script>location.href='login.php'</script>";
+    }
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,9 +16,12 @@
 </head>
 
 <body>
+    
     <div class="main-box">
         <div class="sub-mainbox">
-            <button class="logout" type="button">Logout</button>
+         <form action="logouts.php">
+            <button class="logout" type="submit">Logout</button>
+            </form>
         </div>
         <div class="welcome-box">
             <span class="welcome">Welcome</span>

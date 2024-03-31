@@ -8,6 +8,9 @@
 </head>
 
 <body>
+    <form method="post" action="logouts.php">
+        <button type="submit" style="padding:1vmin">Logout</button>
+    </form>
     <div class="main-box">
         <div class="sub-box">
             <div class="heading-box">
