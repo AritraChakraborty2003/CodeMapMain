@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="singup">
-            <form method='post' action='dashboard.php'>
+            <form method='post' action='successLogin.php'>
                 <div class="singup-element">
                     <h1 class="heading-text">Login Your Account </h1>
                     
@@ -26,13 +26,13 @@
                     <span class="email">password</span>
                     <input class="email-box" type="text" name="password" style="padding:1vmin">
                     <div class="button-box">
-                        <button class="singup-button" style="padding:1vmin">Sign Up</button>
+                        <button class="singup-button" style="padding:1vmin">login</button>
                     </div>
                 
                 </div>
                 </form>
                 <div class="box-2">
-                    <a class="already-account" href="singup_anish.php">Create a  new account </a>
+                    <a class="already-account" href="signup.php">Create a  new account </a>
                 </div>
             </div>
         </div>

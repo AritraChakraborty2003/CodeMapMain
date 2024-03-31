@@ -4,14 +4,14 @@
   
     $email=$_POST['email'];
     $password=$_POST['password'];
-    $mobile=$_POST['mobile'];
+    $name=$_POST['name'];
     $sql = "SELECT * FROM registration";
     $result = mysqli_query($conn, $sql);
     $rows=mysqli_num_rows($result);
     $id=$rows+1;
 
-    $sql1 = "INSERT INTO `registration` (`S.No`, `Name`, `email`,`password`,`mobile`)
-    VALUES ('$id','$name','$email','$password','$mobile')";
+    $sql1 = "INSERT INTO `registration` (`S.No`, `Name`, `email`,`password`)
+    VALUES ('$id','$name','$email','$password')";
 
     if (mysqli_query($conn, $sql1)) {
         echo "<script>location.href='login.php'</script>";

@@ -14,7 +14,7 @@ if(!isset($_SESSION['name']))
             echo "<script>location.href='login.php'</script>";
        else
             session_start();
-            $_SESSION['name']=$row["Name"];
+            $_SESSION['name']=$row["name"];
             echo "<script>location.href='dashboard.php'</script>";
 
     }

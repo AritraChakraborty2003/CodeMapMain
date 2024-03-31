@@ -22,21 +22,22 @@
                 <div class="blog-head">
                 <h1 class="content-heading-1">BLOG Upload</h1>
                 </div>
+            <form method="post" action="blogsSuccess.php">
                 <div class="content-box-element">
                  <div class="sub-content-element">
                     <span class="content-text">Blog Title</span>
-                    <input class="content-title-holder" type="text">
+                    <input class="content-title-holder" type="text" name="btitle">
                     <span class="blog-image">Image Url </span>
-                    <input class="image-url" type="url">
+                    <input class="image-url" type="text" name="bimage">
                     <span class="decsription">Description</span>
-                    <input class="decription-box" type="text">
+                    <input class="decription-box" type="text" name="bdescr">
                     <div class="button-box-1">
-                        <button class="sumbit-button">Upload </button>
+                        <button class="sumbit-button" type="submit">Upload </button>
                     </div>
                  </div>
                 </div>
 
-
+</form>
             </div>
         </div>
         <div class="main-content-box-2">
@@ -47,10 +48,13 @@
                 <div class="content-box-element">
                     <div class="content-box-element">
                         <div class="sub-content-element">
-                           <span class="content-text">Blog Title</span>
+                           <span class="content-text">Project Title</span>
                            <input class="content-title-holder" type="text">
-                           <span class="blog-image">Image Url </span>
-                           <input class="image-url" type="url">
+                           <span class="blog-image">Project Image</span>
+                           <input class="image-url" type="text">
+
+                           <span class="blog-image1">Project Url</span>
+                           <input class="image-url" type="text">
                            <span class="decsription">Description</span>
                            <input class="decription-box" type="text">
                            <div class="button-box-1">
@@ -180,6 +184,15 @@
         position:  relative;
         top : 8vmin  ; 
         
+    }
+    .blog-image1{
+        height: 7vmin ;
+        border-radius: 10px ;
+        color: black ;
+        font-weight: 30px ;
+        font-size: 15px ;
+        position:  relative;
+        top : 10vmin  ;
     }
     .blog-image{
         position: relative;

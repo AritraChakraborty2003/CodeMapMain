@@ -20,9 +20,9 @@
                 <ul>
                     <li><a  href="#about" style="color: black;text-decoration: none;">About-us</a></li>
                     <li><a  href="#services" style="color: black;text-decoration: none;">Services</a></li>
-                    <li><a  href="login" style="color: black;text-decoration: none;">Login/Signup</a></li>
-                    <li><a  href="doctor_1" style="color: black;text-decoration: none;">Blogs</a></li>
-                    <li><a  href="hospitals" style="color: black;text-decoration: none;">Projects</a></li>
+                    <li><a  href="login.php" style="color: black;text-decoration: none;">Login/Signup</a></li>
+                    <li><a  href="blogs.php" style="color: black;text-decoration: none;">Blogs</a></li>
+                    <li><a  href="projects.php" style="color: black;text-decoration: none;">Projects</a></li>
                     <li><a  href="admin.php" style="color: black;text-decoration: none;">admin</a></li>
                 </ul>
             </div>
@@ -37,11 +37,11 @@
     <!---HamBurger NavBar Area-->
     <div class="navHam" id="navHam">
        <ul>
-        <li>About-us</li>
-        <li>Service</li>
-        <li>Login/Signup</li>
-        <li>Blogs</li>
-        <li>Projects</li>
+        <li><a  href="#about" style="color: black;text-decoration: none;">About-us</a></li>
+        <li><a  href="#services" style="color: black;text-decoration: none;">Service</a></li>
+        <li><a  href="signup.php" style="color: black;text-decoration: none;">Login/Signup</a></li>
+        <li><a  href="blogs.php" style="color: black;text-decoration: none;">Blogs</a></li>
+        <li><a  href="projects.php" style="color: black;text-decoration: none;">Projects</a></li>
        </ul>
     </div>
     <!------->
@@ -63,7 +63,7 @@
     <!----->
 
     <!---About Section----->
-    <div class="about">
+    <div class="about" id="about">
         <div class="aboutHeader">
             <p class="aboutHeaderText">ABOUT US</p>
         </div>
@@ -77,10 +77,8 @@
             </div>
            <div class="aboutTextHolder">
                 <p class="aboutText">
-                    Elderly is a company which focus on creating an ecosystem for the elderly with connection for their children and elderly patients.
-                    We come up with a slogan connecting elderly with youth.From IOT based healthcare monitoring system,to mental health support,
-                    connecting with ambulances and hospitals  as well as using AI to predict the health situation of elderly.The prescription management system
-                    ,health reports and prescription alert.
+                   Codemap is a technology company that focus on delivering complex and customized software solutions to our client.With the strategy in mind the codemap team is determined to develop a cutting edge platform to all students and developers to come and join codemap community where regular projects and development contests take place.The projects beign industry oriented and
+                   theme based which help our community develop top notch skill in the industry.
                 </p>
            </div>
         </div>
@@ -90,7 +88,7 @@
 
 
     <!--Services Section-->
-    <div class="services">
+    <div class="services" id="services">
         <div class="servicesHeader">
             <p class="servicesHeaderText">Services</p>
         </div>
@@ -106,7 +104,7 @@
             <div class="imageHolder3">
                     <img src="static/webDevJob.png" alt="" srcset="">
                 </div>
-                <p class="textTitle" style="text-align:center">Website and mobile app development</p>
+                <p class="textTitle" style="text-align:center">Web-App Development, mobile app development , SEO etc...</p>
             </div>
             <div class="serviceBox1">
             <div class="imageHolder3">
@@ -125,56 +123,53 @@
         </div>
 </div>
 
-    <!------->
-    <!---FAQ Section ---->
-    <div class="faqHeader">
-            Faqs
-        </div>
-    <div class="faqSection">
-        
-        <div class="containerFAQ faqImage">
-           <div class="imageHolderFAQ">
-             <img src="static/faq.webp" alt="" srcset="">
-           </div>
-        </div>
-        <div class="containerFAQ faqBox">
-            This is a FAQ box
-        </div>
-    </div>
-
     <!--Footer Section-->
 
 
     <div class="footer">
         <div class="logoIcon">
 
-            <div class="logoHolder1">
+            <div class="aboutImageHolder">
 
-                <img src="static/logo.jpg" alt="logo" srcset="" class="Logo">
+                <img src="static/codemap-removebg-preview.png" alt="logo" srcset="" class="Logo">
             </div>
         </div>
         <div class="location">
 
-            <p class="dataAddress">Address: Plot 19/20,IIMT College Of Engineering,<br>R&D Office and Incubation Cell, Greater Noida,<br>20310</p>
+            <p class="dataAddress">Address: Plot 19/20,IIMT College Of Engineering,R&D Office and Incubation Cell, Greater Noida,20310</p>
             <p class="dataAddress">Email: aritra.chakraborty203@gmail.com</p>
             <p class="dataAddress">Contact No: 7585824862 , 9382993983</p>
-            <p class="dataAddress">Propreiter: Anish Gupta</p>
-            <p class="dataAddress">Social links:
-                <ul class="socialLinks" style="margin-top: 3vmin;">
-                    <li>
-                        <img src="static/insta-removebg-preview.png" alt="instagram" srcset="" height="40" width="46">
-                    </li>
-                    <li>
-                        <img src="static/facebook.png" alt="instagram" srcset="" height="35" width="35">
-                    </li>
-                    <li>
-                        <img src="static/linkedin-removebg-preview.png" alt="instagram" srcset="" height="35" width="35">
-                    </li>
-                    <li> <img src="static/twitter.png" alt="instagram" srcset="" height="35" width="35"></li>
-                </ul>
+            
+            <p class="dataAddress">Website:https://www.codemap.com</p>
+            <p class="dataAddress">Twitter/X handle: twitter/CodeMap</p>
+            
 
             </p>
         </div>
+</p>
+<div class="linksFooter">
+<p class="Links">Social links:
+    <div class="linkcontainer">
+    <ul class="socialLinks1" style="margin-top: 3vmin;">
+        <li>
+            <img src="static/instagram.webp" alt="instagram" srcset="" height="80" width="80">
+        </li>
+
+        <li>
+            <img src="static/linkedin.avif" alt="instagram" srcset="" height="60" width="70" class="ll" style="margin-top:1vmin;">
+        </li>
+        <li>
+            <img src="static/wp.webp" alt="instagram" srcset="" height="90" width="90" style="margin-left:1vmin">
+        </li>
+        <li> <img src="static/twitter.webp" alt="instagram" srcset="" height="80" width="78"></li>
+    </ul>
+
+</p>
+</div>
+<div style="max-width:100%;overflow:hidden;color:red;width:300px;height:25vmin;"><div id="embedded-map-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=IIMT+College+of+Engineering,+Knowledge+Park+III,+Greater+Noida,+Uttar+Pradesh,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="embed-map-html" href="https://www.bootstrapskins.com/themes" id="auth-map-data">premium bootstrap themes</a><style>#embedded-map-display img{max-height:none;max-width:none!important;background:none!important;}</style></div>
+
+</div>
+</div>
     </div>
 
     <!----->
@@ -187,6 +182,10 @@
         padding:0;
         box-sizing: border-box;
     }
+    .box{
+        margin-top:3vmin;
+    }
+
     .servicesHolder{
         row-gap:5.5vmin;
     }
@@ -203,10 +202,25 @@
         width:100vw;
 
     }
+    .containerFAQBox{
+        width:78%;
+        background-color:#F9FBFF;
+        border:1px solid grey;
+        color:#545CA6;
+        display:flex;
+        align-items:center;
+        padding:3.5vmin;
+    }
+    .socialLinks1{
+        width:60vmin;
+    }
     .servicesHolder{
         width:100vw;
         
        
+    }
+    .faqHolder{
+        margin-top:5vmin;
     }
     .imageHolder3{
         height:50vmin;
@@ -236,7 +250,7 @@
     }
     .faqSection{
         width:100vw;
-        height:80vmin;
+
         display:flex;
         justify-content:center;
         flex-wrap:wrap;
@@ -253,7 +267,7 @@
         width:100vw;
         height:10vmin;
         margin-top:10vmin;
-        border:1px solid black;
+       
         display:flex;
         justify-content:center;
         align-items:center;
@@ -261,9 +275,31 @@
     .imageHolderFAQ{
      
     }
+
+    .linkcontainer{
+    width:100%;
+    display:flex;
+   
+    justify-content:center;
+  }
+  .containerFAQBoxAns{
+    width:78%;
+    padding:1.75vmin;
+  border:1px solid black;
+  }
 /*New Code*/
 /*Small Device*/
 @media(max-width:700px){
+
+    .linkcontainer{
+    width:100vw;
+    display:flex;
+  
+    justify-content:center;
+  }
+    .Logo{
+        margin-top:6vmin;
+    }
     .textTitle{font-size:5vmin;font-weight:bold;}
     *{
         overflow-x: hidden;
@@ -389,6 +425,11 @@
         
 
         width: 100vmin;
+    }
+    .ll{
+        display:none;
+        margin-left:2.5vmin;
+        margin-top:1vmin;
     }
     .nav-icons{
     display: none;
@@ -559,6 +600,9 @@
 }
 /*Tab Screens*/
 @media(min-width:701px) and (max-width:900px){
+    .Logo{
+        margin-top:6vmin;
+    }
     .textTitle{font-size:5vmin;font-weight:bold;}
   .aboutImageHolder{
     display: flex; justify-content: center; align-items: center;
@@ -767,6 +811,12 @@
         font-size: 7vmin;
         font-style: normal;
     }
+    .linkcontainer{
+    width:100vw;
+    display:flex;
+    border:1px solid white;
+    justify-content:center;
+  }
     .servicesHeader{
         display: flex;
         width: 100vw;
@@ -952,6 +1002,11 @@
        width:100vw;
        margin-top: 3vmin;
    }
+   .faqBox{ width:100vw;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        border:1px solid black;}
 
 }
 /*---- End for mobile and tab screens ---*/
@@ -1725,7 +1780,9 @@
 @media(min-width:1441px) and (max-width:1727px){
     
     .textTitle{font-size:3vmin;font-weight:bold;
-    font-family:"sans-serif"}
+        font-family: "Mukta";
+        font-weight: 600;
+        font-style: normal;}
   .hamSection{
     display: none;
   }
@@ -2558,6 +2615,45 @@
         max-height: 100%;
         object-fit: contain;
     }
+    .footer{
+        background-color:#606AC7;
+    }
+    .dataAddress{
+        font-family: "Mukta";
+        font-weight: 600;
+        font-style: normal;
+    }
+    .logoIcon{
+        display:flex;
+        justify-content:center;
+    }
+    .socialLinks1{
+      
+        display:block;
+        display:flex;
+        justify-content:space-evenly;
+    }
+    .socialLinks1 li{
+         list-style: none;
+    }
+  .linksFooter{
+     margin-top:5vmin;
+  }
+  .Links{
+     font-size:4.5vmin;
+     font-weight:bold;
+     color:white;
+  }
+  .faqHeader{
+    margin-top:10vmin;
+  }
+  .linksFooter{
+     display:flex;
+     flex-direction:column;
+     align-items:center;
+     justify content:center;
+  }
+
 </style>
 <script>
    let state=false;

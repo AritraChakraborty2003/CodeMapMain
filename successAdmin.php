@@ -15,7 +15,7 @@ if(!isset($_SESSION['name']))
        else
             session_start();
             $_SESSION['name']=$row["name"];
-            echo "<script>location.href='choiceUser.php'</script>";
+            echo "<script>location.href='cms.php'</script>";
 
     }
 }

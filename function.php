@@ -2,7 +2,7 @@
     require 'connDB.php';
     function getUserList(){
         global $conn;
-        $query='SELECT* from registration';
+        $query='SELECT* from blogs';
         $query=mysqli_query($conn,$query);
         if($query){
             if(mysqli_num_rows($query)>0){
